@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/038/935/389/large/raoni-dorim-mountains-night-highress.jpg?1624474759');
+    font-family: 'Poppins', sans-serif;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border-radius: 10%;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10%;
+    border: none;
+    border-color: none;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
+    
+}
+
+table {
+    border: 2px solid #eee;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .reset {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 10px;
+}
+
+
+  
+ button:hover {
+    background-color: black;
+    border: none;
+    border-color: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  
+
+ section {
+     padding: 0 4% 0 10%;
+     display: inline-table;
+     
+ }
+ 
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
